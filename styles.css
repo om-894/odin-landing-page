@@ -1,8 +1,5 @@
 
-/* Include Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
-/* General flexbox setup for main body and sections */
+/* General flexbox setup for main website body and sections */
 body,
 .top,
 .second,
@@ -11,7 +8,6 @@ body,
 .fourth-text {
     display: flex;
     flex-direction: column; /* Stack child elements vertically */
-    font-family: 'Poppins', sans-serif; /* Set default font to Poppins */
 }
 
 /* Flexbox setup for specific sections to align children in a row */
